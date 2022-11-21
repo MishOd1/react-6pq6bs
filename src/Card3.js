@@ -3,7 +3,7 @@ import React from "react";
 function Card3() {
   return(
     <div className="card">
-      <p>Again, Hello World</p>
+      <p>soon to come a multiple choice exam about BTC, stay tuned!</p>
     </div>
   );
 };
