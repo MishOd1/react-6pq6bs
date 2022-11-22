@@ -4,7 +4,7 @@ import './Para.css';
 
 function Para (){
     return(
-        <div>
+        <div className="Para">
           <Parallax pages={4}>
             <ParallaxLayer
                 offset={0}

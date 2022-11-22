@@ -1,19 +1,14 @@
 .App {
   text-align: center;
-  background-color: rgb(245, 245, 245);
-  background-size: 150% 150%;
-  animation: gradient 25s ease infinite;
-  height: 200vh;
-  
+
 }
 
 .footerMain{
-  background: linear-gradient(-90deg, #1b1b1b6e, #3333334d, #9b9b9b1e, #00000069);
-  
+  background: linear-gradient(90deg,  #bdbdbd23, #74747471, #dddddd1e);
   height: 2.5rem;
   border-radius: 1rem;
   background-size: 150% 150%;
-  animation: gradient 7s ease infinite;
+  animation: gradient 1s ease infinite;
  
 
 }
@@ -98,8 +93,8 @@
       3px 3px 0px rgb(85, 109, 109)
   }
 
-/* 
-  body {
+
+  /* body {
     background-color: rgb(245, 245, 245);
     background-size: 150% 150%;
     animation: gradient 25s ease infinite;

@@ -3,15 +3,15 @@ import './Home.css'
 import Para from './Parallax.js'
 function Home () {
   return(
-    <div className="homePageDiv">
-      {/* <div>
-        <Para></Para>                        //uncomment this latter on to reactivate parallax effect
-      </div> */}
+    <div className="homePageDiv" id="body">
+      <div>
+        <Para></Para>                        
+      </div>
       <br></br>
       <br></br>
       <br></br>
       <div>
-      <h1 id="homeConatainer">
+      <h1  id="homeConatainer">
         Hi, i am <x className="Name">Meshael!</x> 
         <br></br>and this is a simple react project i have made..
       </h1>
