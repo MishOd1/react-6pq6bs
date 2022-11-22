@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: rgb(245, 245, 245);
+  background-size: 150% 150%;
+  animation: gradient 25s ease infinite;
+  height: 200vh;
   
 }
 
@@ -94,16 +98,13 @@
       3px 3px 0px rgb(85, 109, 109)
   }
 
-
+/* 
   body {
-    background: #063323;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #337c4e, #0e5039);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #69f09a, #0a422f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background-color: rgb(245, 245, 245);
     background-size: 150% 150%;
     animation: gradient 25s ease infinite;
     height: 200vh;
-  }
+  } */
   
   @keyframes gradient {
     0% {

@@ -4,17 +4,20 @@ import Para from './Parallax.js'
 function Home () {
   return(
     <div className="homePageDiv">
+      {/* <div>
+        <Para></Para>                        //uncomment this latter on to reactivate parallax effect
+      </div> */}
+      <br></br>
+      <br></br>
+      <br></br>
       <div>
-        <Para></Para>
-      </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <h1>
+      <h1 id="homeConatainer">
         Hi, i am <x className="Name">Meshael!</x> 
         <br></br>and this is a simple react project i have made..
       </h1>
+      </div>
       <br></br>
+      <div id="homeConatainer2">
       <p className="homeP1">by checking below, you will find 5 buttons..</p>
       <ul className="ul">
         <li className="homeLI">Starting from the left button, first button will lead you back to this home page.</li>
@@ -24,6 +27,7 @@ function Home () {
         <li className="homeLI">Collapse button will collapse any/all active apps.</li>
         
       </ul>
+      </div>
     </div>
   );
 };
