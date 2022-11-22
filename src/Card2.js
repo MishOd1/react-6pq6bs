@@ -34,6 +34,9 @@ function Todo() {
   }
   return (
     <div className="App">
+      <br></br>
+      <br></br>
+     
       {/* 1.Header*/}
       <h1 className="header">To-Do List App (React)</h1>
       <br></br>
