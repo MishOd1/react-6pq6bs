@@ -1,16 +1,21 @@
 import React from "react";
 import './Home.css'
+import Para from './Parallax.js'
 function Home () {
   return(
     <div className="homePageDiv">
+      <div>
+        <Para></Para>
+      </div>
       <br></br>
       <br></br>
       <br></br>
       <h1>
-        
+        Hi, i am <x className="Name">Meshael!</x> 
+        <br></br>and this is a simple react project i have made..
       </h1>
       <br></br>
-      <p className="homeP1">if you check the top of the page you will find 5 buttons</p>
+      <p className="homeP1">by checking below, you will find 5 buttons..</p>
       <ul className="ul">
         <li className="homeLI">Starting from the left button, first button will lead you back to this home page.</li>
         <li className="homeLI">Second from left, is a React.js app that will show you a count down to the next BTC halving.</li> 

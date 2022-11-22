@@ -4,10 +4,13 @@
 }
 
 .footerMain{
-  background-color: #0000005e;
+  background: linear-gradient(-90deg, #1b1b1b6e, #3333334d, #9b9b9b1e, #00000069);
   
   height: 2.5rem;
   border-radius: 1rem;
+  background-size: 150% 150%;
+  animation: gradient 7s ease infinite;
+ 
 
 }
 
@@ -22,7 +25,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.733);
   grid-template-columns: auto;
   background: linear-gradient(90deg, #82e2793a, #e8f07b23, #dfc6731e, #71c27c38);
-  background-color: rgba(69, 75, 109, 0.288);
+  background-color: rgba(69, 75, 109, 0.37);
   align-items: center;
         }
 .items-item{

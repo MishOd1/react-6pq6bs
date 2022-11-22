@@ -6,7 +6,7 @@ import './styles.css';
 import './style.css';
 import './Button.css'
 import Home from './Home.js'
-import Para from './Parallax.js'
+
 import Fotter2 from './footer2.js'
 
 
@@ -15,9 +15,8 @@ export default function App() {
 
   return (
     <div className="App">
-       <div>
-        <Para></Para>
-      </div>
+        {active === '' && <Home />}
+        {active === 'Home' && <Home />}
       <nav>
         <button className="button" onClick={() => setActive('Home')}>Home</button>
         <button className="button" title="BTC Halving" onClick={() => setActive('FirstCard')}>App one</button>
@@ -31,8 +30,8 @@ export default function App() {
         {active === 'FirstCard' && <Card title="Soon To come, a count down to the next BTC halving... stay tuned" />}
         {active === 'SecondCard' && <Todo />}
         {active === 'ThirdCard' && <Card3 />}
-        {active === '' && <Home />}
-        {active === 'Home' && <Home />}
+        
+        
       </div>
       <footer className="footerMain">
         <Fotter2 />
