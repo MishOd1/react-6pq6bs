@@ -7,7 +7,8 @@ import './style.css';
 import './Button.css'
 import Home from './Home.js'
 import Para from './Parallax.js'
-import Footer from './Footer.js'
+import Fotter2 from './footer2.js'
+
 
 export default function App() {
   const [active, setActive] = useState('');
@@ -33,7 +34,9 @@ export default function App() {
         {active === '' && <Home />}
         {active === 'Home' && <Home />}
       </div>
-      <Footer />
+      <footer className="footerMain">
+        <Fotter2 />
+      </footer>
     </div>
   );
 }
