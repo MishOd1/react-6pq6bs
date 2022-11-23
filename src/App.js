@@ -30,8 +30,6 @@ export default function App() {
         {active === 'FirstCard' && <Card title="Soon To come, a count down to the next BTC halving... stay tuned" />}
         {active === 'SecondCard' && <Todo />}
         {active === 'ThirdCard' && <Card3 />}
-        
-        
       </div>
       <footer className="footerMain">
         <Fotter2 />
