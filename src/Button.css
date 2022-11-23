@@ -1,5 +1,6 @@
 body{
-  background-color: white;
+  background: rgb(92, 91, 91);
+background: radial-gradient(circle, rgba(219, 219, 219, 0.785) 0%, rgba(228,226,211,0.7315301120448179) 50%, rgba(255,255,255,0.7707457983193278) 100%);
 }
 .wrapper{
   position: absolute;

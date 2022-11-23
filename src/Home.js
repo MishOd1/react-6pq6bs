@@ -3,11 +3,7 @@ import './Home.css'
 import Para from './Parallax.js'
 import './Para.css'
 function Home () {
-  const scrollTohowItWorks = () =>  window.scroll({
-    top: 2000,
-    left: 0,
-    behavior: 'smooth'
-  });
+
   return(
     <div className="homePageDiv" id="body">
       <div>
@@ -25,7 +21,6 @@ function Home () {
       <br></br>
       
   
-        <button className="scroll" onClick={scrollTohowItWorks}  to=''>Support</button>
       <div id="homeConatainer2">
       <p className="homeP1">by checking below, you will find 5 buttons..</p>
       <ul className="ul">
