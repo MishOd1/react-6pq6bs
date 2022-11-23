@@ -3,19 +3,24 @@
 }
 .parag{
   color:rgb(0, 0, 0);
-  font-size:4rem;
+  font-size:2rem;
   z-index:1;
-  background: #cdb3eb;
+  background: #c5c4c7;
   border-radius: 8rem;
-  width: 25rem;
-  height: 6rem;
+  width: 15rem;
+  height: 3rem;
   text-align: center;
   margin: 0;
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 50%;
   -ms-transform: translate(-70%, -70%);
   transform: translate(-50%, -50%);
+  outline-color: black;
+  outline-style: inset;
 }
 
+.scroll {
+  z-index: 1;
+}
 
