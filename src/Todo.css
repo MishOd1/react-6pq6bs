@@ -4,8 +4,9 @@
 }
 
 .footerMain{
-  background: linear-gradient(90deg,  #bdbdbd23, #74747471, #dddddd1e);
-  height: 2.5rem;
+  background: linear-gradient(-45deg,  #00000023, #83848571, #0000001e);
+  height: 2rem;
+  width: 100%;
   border-radius: 1rem;
   background-size: 150% 150%;
   animation: gradient 1s ease infinite;
