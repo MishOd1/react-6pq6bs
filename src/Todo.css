@@ -156,9 +156,21 @@
     
 }
 .DeleteAll:hover,
-.DeleteAll:active{
+.DeleteAll:active
+  {
+
   background-color: #ff0000;
   box-shadow: 0 0px 12px rgb(0, 0, 0);
+
+  
+}
+
+.Delete:hover,
+.Delete:active{
+  background-color: #ff00004b;
+  box-shadow: 0 0px 12px rgb(0, 0, 0);
+  cursor: pointer;
+ 
 }
 
 

@@ -1,7 +1,4 @@
-body{
-  background: rgb(92, 91, 91);
-background: radial-gradient(circle, rgba(219, 219, 219, 0.785) 0%, rgba(228,226,211,0.7315301120448179) 50%, rgba(255,255,255,0.7707457983193278) 100%);
-}
+
 .wrapper{
   position: absolute;
   top:50%;
@@ -13,7 +10,7 @@ background: radial-gradient(circle, rgba(219, 219, 219, 0.785) 0%, rgba(228,226,
 .button{
   width:7.5rem;
   height:2.5rem;
-  background:rgba(82, 82, 82, 0.411);
+  background: linear-gradient(-180deg, #1b1b1b6e, #1b1b1b4d, #2e2e2e1e, #00000069);
   border-style: none;
   color:rgb(0, 0, 0);
   font-size: 0.8rem;

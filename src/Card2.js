@@ -75,6 +75,7 @@ function Todo() {
                 {item.value}
               
                 <button
+                  id="DeleteMe"
                   title="done?"
                   className="Delete"
                   onClick={() => deleteItem(item.id)}

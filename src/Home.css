@@ -32,7 +32,7 @@ h1{
   margin: 0.75rem;
 }
 #homeConatainer{
-  background-color: rgba(172, 172, 172, 0.541);
+  background: linear-gradient(-90deg, #1b1b1b6e, #3333334d, #9b9b9b1e, #00000069);
   width: 30vw;
   margin: auto;
   width: 50%;
