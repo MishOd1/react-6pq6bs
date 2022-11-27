@@ -6,6 +6,7 @@ import './styles.css';
 import './style.css';
 import './Button.css'
 import Home from './Home.js'
+import CDT from './CDT.js'
 
 import Fotter2 from './footer2.js'
 
@@ -27,7 +28,7 @@ export default function App() {
       </nav>
      
       <div>
-        {active === 'FirstCard' && <Card title="Soon To come, a count down to the next BTC halving... stay tuned" />}
+        {active === 'FirstCard' && <CDT />}
         {active === 'SecondCard' && <Todo />}
         {active === 'ThirdCard' && <Card3 />}
       </div>
