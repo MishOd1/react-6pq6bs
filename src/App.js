@@ -6,7 +6,7 @@ import './styles.css';
 import './style.css';
 import './Button.css'
 import Home from './Home.js'
-import CDT from './CDT.js'
+
 
 import Fotter2 from './footer2.js'
 
@@ -20,7 +20,7 @@ export default function App() {
         {active === 'Home' && <Home />}
       <nav>
         <button className="button" onClick={() => setActive('Home')}>Home</button>
-        <button className="button" title="BTC Halving" onClick={() => setActive('FirstCard')}>App one</button>
+        <button className="button" title="BTC Halving" onClick={() => window.open("https://react-myg6o9.stackblitz.io")}>App one</button>
         <button className="button" title="To-Do List" onClick={() => setActive('SecondCard')}>App two </button>
         <button className="button" title="What Is BTC?" onClick={() => setActive('ThirdCard')}>App three</button>
         <button className="button" id="collapse"  onClick={() => setActive('NoCard')}>Collapse</button>
@@ -28,7 +28,7 @@ export default function App() {
       </nav>
      
       <div>
-        {active === 'FirstCard' && <CDT />}
+        
         {active === 'SecondCard' && <Todo />}
         {active === 'ThirdCard' && <Card3 />}
       </div>
