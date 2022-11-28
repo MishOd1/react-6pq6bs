@@ -70,3 +70,18 @@ button {
 
   border-radius: 24px;
 }
+
+.video-responsive {
+ 
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}

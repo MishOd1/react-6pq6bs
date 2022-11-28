@@ -10,48 +10,48 @@ function Card3() {
 
   const questions = [
     {
-      text: "What is the capital of America?",
+      text: "Only _____ Can Extart (Mine) Bitcoin",
       options: [
-        { id: 0, text: "New York City", isCorrect: false },
-        { id: 1, text: "Boston", isCorrect: false },
-        { id: 2, text: "Santa Fe", isCorrect: false },
-        { id: 3, text: "Washington DC", isCorrect: true },
+        { id: 0, text: "Goverments", isCorrect: false },
+        { id: 1, text: "Banks", isCorrect: false },
+        { id: 2, text: "Bitcoin Founder", isCorrect: false },
+        { id: 3, text: "Anyone", isCorrect: true },
       ],
     },
     {
-      text: "What year was the Constitution of America written?",
+      text: "What Type Of Equipment Is Used In Bitcoin Mining?",
       options: [
-        { id: 0, text: "1787", isCorrect: true },
-        { id: 1, text: "1776", isCorrect: false },
-        { id: 2, text: "1774", isCorrect: false },
-        { id: 3, text: "1826", isCorrect: false },
+        { id: 0, text: "Super Computers", isCorrect: true },
+        { id: 1, text: "Coal Mining Equipment", isCorrect: false },
+        { id: 2, text: "Gold Mining Equipment", isCorrect: false },
+        { id: 3, text: "Crude Oil Extraction Equipment", isCorrect: false },
       ],
     },
     {
-      text: "Who was the second president of the US?",
+      text: "What Physical Shape Does Bitcoin Have?",
       options: [
-        { id: 0, text: "John Adams", isCorrect: true },
-        { id: 1, text: "Paul Revere", isCorrect: false },
-        { id: 2, text: "Thomas Jefferson", isCorrect: false },
-        { id: 3, text: "Benjamin Franklin", isCorrect: false },
+        { id: 0, text: "Paper Money", isCorrect: false },
+        { id: 1, text: "Precious Metal", isCorrect: false },
+        { id: 2, text: "Its Digital Money (No Physical Form)", isCorrect: true },
+        { id: 3, text: "Flash Drive", isCorrect: false },
       ],
     },
     {
-      text: "What is the largest state in the US?",
+      text: "Bitcoin Has A Backup Of 100Tons Of Gold Saved In",
       options: [
         { id: 0, text: "California", isCorrect: false },
-        { id: 1, text: "Alaska", isCorrect: true },
+        { id: 1, text: "Bitcoin Is Not Backedup By Gold Or Paper Money", isCorrect: true },
         { id: 2, text: "Texas", isCorrect: false },
         { id: 3, text: "Montana", isCorrect: false },
       ],
     },
     {
-      text: "Which of the following countries DO NOT border the US?",
+      text: "To Send A Bitcoin To Another Person, You Have To..",
       options: [
-        { id: 0, text: "Canada", isCorrect: false },
-        { id: 1, text: "Russia", isCorrect: true },
-        { id: 2, text: "Cuba", isCorrect: true },
-        { id: 3, text: "Mexico", isCorrect: false },
+        { id: 0, text: "Ask The Bank To Send", isCorrect: false },
+        { id: 1, text: "Send Directly (peer-to-peer)", isCorrect: true },
+        { id: 2, text: "Send Throw Paypal", isCorrect: true },
+        { id: 3, text: "Deliver It By Hand", isCorrect: false },
       ],
     },
   ];
@@ -81,6 +81,21 @@ function Card3() {
 
   return (
     <div className="App">
+      <div className="welcome">
+        <h1 className="Welcome">Weclome to the Bitcoin quiz</h1><br></br>
+        <h2 className="below">below, you will find a video.. please play that 1 minute video<br></br>
+        then procced to the 5 qustion quiz below it and answer all the qustions.. 
+        </h2>
+        <p className="par">
+          after you answer all the qustions<br></br>
+          you will get back a result, the result contains how many qustions you got right and your percenatge %<br></br>
+          and below your result, you will find a restart button marked in red, if you wish to re-take this exam, good luck!
+        </p>
+
+
+
+
+      </div>
       <YoutubeEmbed embedId="wrPklp6PIew" />
       {/* 1. Header  */}
       <h1>USA Quiz 🇺🇸</h1>
