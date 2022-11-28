@@ -7,6 +7,6 @@ body{
   background: rgb(176,151,228);
 background: linear-gradient(90deg, rgb(62, 99, 96) 0%, rgba(139, 165, 68, 0.527) 50%, rgb(72, 126, 93) 100%);
 background-size: cover;
-background-image: url('https://onepagelove.imgix.net/2018/09/opl-thumb-1.jpg');
-background-size: contain;
+background-image: url('./Background.jpg');
+
 }
