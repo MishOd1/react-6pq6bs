@@ -81,15 +81,15 @@ function Card3() {
 
   return (
     <div className="App">
-      <div className="welcome">
+      <div className="question-card2">
         <h1 className="Welcome">Weclome to the Bitcoin quiz</h1><br></br>
         <h2 className="below">below, you will find a video.. please play that 1 minute video<br></br>
         then procced to the 5 qustion quiz below it and answer all the qustions.. 
         </h2>
         <p className="par">
-          after you answer all the qustions<br></br>
+          after you answer all the qustions!<br></br>
           you will get back a result, the result contains how many qustions you got right and your percenatge %<br></br>
-          and below your result, you will find a restart button marked in red, if you wish to re-take this exam, good luck!
+          and below your result, you will find a restart button marked in red, if you wish to re-take this exam, <b>good luck!</b>
         </p>
 
 
@@ -97,15 +97,15 @@ function Card3() {
 
       </div>
       <YoutubeEmbed embedId="wrPklp6PIew" />
-      {/* 1. Header  */}
-      <h1>USA Quiz 🇺🇸</h1>
+     
+      <h1>The Bitcoin Quiz</h1>
 
-      {/* 2. Current Score  */}
+     
       <h2>Score: {score}</h2>
 
-      {/* 3. Show results or show the question game  */}
+     
       {showResults ? (
-        /* 4. Final Results */
+        
         <div className="final-results">
           <h1>Final Results</h1>
           <h2>
@@ -115,9 +115,9 @@ function Card3() {
           <button onClick={() => restartGame()}>Restart game</button>
         </div>
       ) : (
-        /* 5. Question Card  */
+        
         <div className="question-card">
-          {/* Current Question  */}
+          
           <h2>
             Question: {currentQuestion + 1} out of {questions.length}
           </h2>
