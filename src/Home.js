@@ -7,22 +7,35 @@ function Home () {
   return(
     <div className="homePageDiv" id="body">
       <div>
-        <Para></Para>                        
+        {/* <Para></Para>                         */}
+      </div>
+      <div className="Header">
+      <header >
+        
+        <p className="transp">'</p>
+      
+        <h6 className="welcomePara">Hi, i'm Meshael and this is a react project i have been working on </h6>
+        <p className="transp">'</p>
+     
+        
+        
+
+      </header>
       </div>
       <br></br>
       <br></br>
       <br></br>
-      <div>
+      {/* <div>
       <h1  id="homeConatainer">
         Hi, i am <x className="Name">Meshael!</x> 
         <br></br>and this is a simple react project i have made..
       </h1>
-      </div>
+      </div> */}
       <br></br>
       
   
       <div id="homeConatainer2">
-      <p className="homeP1">by checking below, you will find 5 buttons..</p>
+      <p className="homeP1">The project contains the following Items</p>
       <ul className="ul">
         <li className="homeLI">Starting from the left button, first button will lead you back to this home page.</li>
         <li className="homeLI">Second from left, is a React.js app that will show you a count down to the next BTC halving.</li> 

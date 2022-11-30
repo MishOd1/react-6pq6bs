@@ -8,9 +8,10 @@
   height:auto;
 }
 .button{
+  margin-bottom: 2rem;
   width:7.5rem;
   height:2.5rem;
-  background: linear-gradient(-180deg, #1b1b1b6e, #1b1b1b4d, #2e2e2e1e, #00000069);
+  background-color: rgba(207, 151, 87, 0.281);
   border-style: none;
   color:rgb(0, 0, 0);
   font-size: 0.8rem;

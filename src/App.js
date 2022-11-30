@@ -16,8 +16,7 @@ export default function App() {
 
   return (
     <div className="App">
-        {active === '' && <Home />}
-        {active === 'Home' && <Home />}
+       
       <nav>
         <button className="button" onClick={() => setActive('Home')}>Home</button>
         <button className="button" title="BTC Halving" onClick={() => window.open("https://react-myg6o9.stackblitz.io")}>App one</button>
@@ -28,7 +27,8 @@ export default function App() {
       </nav>
      
       <div>
-        
+        {active === '' && <Home />}
+        {active === 'Home' && <Home />}
         {active === 'SecondCard' && <Todo />}
         {active === 'ThirdCard' && <Card3 />}
       </div>
