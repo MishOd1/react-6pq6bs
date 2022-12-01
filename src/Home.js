@@ -9,19 +9,11 @@ function Home () {
       <div>
         {/* <Para></Para>                         */}
       </div>
-      <div className="Header">
-      <header >
-        
-        <p className="transp">'</p>
-      
-        <h6 className="welcomePara">Hi, i'm Meshael and this is a react project i have been working on </h6>
-        <p className="transp">'</p>
+
      
         
         
 
-      </header>
-      </div>
       <br></br>
       <br></br>
       <br></br>
@@ -35,7 +27,8 @@ function Home () {
       
   
       <div id="homeConatainer2">
-      <p className="homeP1">The project contains the following Items</p>
+      <p className="homeP1">Hello! this is my react project!</p>
+      <p className="homeP2">The project contains the following Items</p>
       <ul className="ul">
         <li className="homeLI">Starting from the left button, first button will lead you back to this home page.</li>
         <li className="homeLI">Second from left, is a React.js app that will show you a count down to the next BTC halving.</li> 

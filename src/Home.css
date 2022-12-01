@@ -14,11 +14,18 @@ h1{
 
 }
 .homeP1{
-  margin-top: 4rem;
-  font-size: larger;
+  margin-top: 1rem;
+  font-size: 3rem;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 0.5px 1px 1.9px rgb(0, 0, 0);
-  color: rgba(236, 198, 127, 0.87);
+  color: rgba(0, 0, 0, 0.87);
+}
+.homeP2{
+  margin-top: -2.5rem;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0.5px 1px 1.9px rgb(0, 0, 0);
+  color: rgba(131, 87, 7, 0.87);
 }
 
 .ul{
@@ -59,6 +66,7 @@ h1{
   padding: 10px;
   align-items: top;
   z-index: 1;
+  margin-top: 2rem;
 }
 
 .Header {
